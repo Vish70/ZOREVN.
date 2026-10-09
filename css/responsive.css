@@ -1,0 +1,186 @@
+
+/* =================================
+   PART 3: AUDIENCE RESPONSIVE
+================================= */
+
+@media (max-width: 768px) {
+
+    .catalog-controls {
+        width: calc(100% - 40px);
+        padding-top: 26px;
+    }
+
+    .audience-toggle {
+        gap: 8px;
+    }
+
+    .audience-pill {
+        min-width: 82px;
+        height: 38px;
+        padding-inline: 18px;
+        font-size: 10px;
+    }
+
+}
+
+@media (max-width: 380px) {
+
+    .catalog-controls {
+        width: calc(100% - 28px);
+    }
+
+    .audience-pill {
+        min-width: 76px;
+        padding-inline: 14px;
+    }
+
+}
+
+/* =================================
+   PART 4: PRODUCT TYPE RESPONSIVE
+================================= */
+
+@media (max-width: 768px) {
+
+    .product-type-section {
+        width: calc(100% - 40px);
+        padding-top: 12px;
+    }
+
+    .product-type-toggle {
+        gap: 7px;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        padding-bottom: 4px;
+
+        scrollbar-width: none;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .product-type-toggle::-webkit-scrollbar {
+        display: none;
+    }
+
+    .product-type-pill {
+        min-height: 35px;
+        padding-inline: 15px;
+        font-size: 9px;
+        flex-shrink: 0;
+    }
+
+}
+
+@media (max-width: 380px) {
+
+    .product-type-section {
+        width: calc(100% - 28px);
+    }
+
+    .product-type-pill {
+        padding-inline: 12px;
+    }
+
+}
+
+/* =================================
+   PART 5: PRODUCT LISTING RESPONSIVE
+================================= */
+
+@media (max-width: 1024px) {
+
+    .product-listing {
+        width: calc(100% - 64px);
+        padding-top: 40px;
+    }
+
+    .product-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        column-gap: 20px;
+        row-gap: 32px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .product-listing {
+        width: calc(100% - 40px);
+        padding-top: 32px;
+        padding-bottom: 52px;
+    }
+
+    .listing-header {
+        align-items: flex-end;
+        gap: 12px;
+        margin-bottom: 22px;
+    }
+
+    .listing-title-group {
+        gap: 7px;
+    }
+
+    .listing-title {
+        font-size: 30px;
+    }
+
+    .listing-eyebrow {
+        font-size: 9px;
+        letter-spacing: 1.6px;
+    }
+
+    .listing-count {
+        font-size: 9px;
+        letter-spacing: 0.8px;
+    }
+
+    .product-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        column-gap: 14px;
+        row-gap: 28px;
+    }
+
+}
+
+@media (max-width: 380px) {
+
+    .product-listing {
+        width: calc(100% - 28px);
+    }
+
+    .listing-title {
+        font-size: 27px;
+    }
+
+    .product-grid {
+        column-gap: 10px;
+        row-gap: 24px;
+    }
+
+}
+
+
+/*//////////// product images grid  /////////////// */
+
+
+@media (max-width: 1024px) {
+    .product-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        column-gap: 20px;
+        row-gap: 32px;
+    }
+}
+
+@media (max-width: 768px) {
+    .product-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        column-gap: 14px;
+        row-gap: 28px;
+    }
+}
+
+@media (max-width: 380px) {
+    .product-grid {
+        column-gap: 10px;
+        row-gap: 24px;
+    }
+}
