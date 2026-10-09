@@ -273,6 +273,13 @@
     min-height: calc(1.5em * 2);
 }
 
+    .product-name {
+        font-size:21px;
+        line-height: 1.45;
+        min-height: calc(1.45em * 2);
+    }
+
+
 /* Mobile */
 
 @media (max-width: 768px) {
