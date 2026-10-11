@@ -12,7 +12,8 @@ $(document).ready(function () {
                 { label: "T-SHIRT", value: "tshirt" },
                 { label: "SHIRT", value: "shirt" },
                 { label: "JEANS", value: "jeans" },
-                { label: "SHOES", value: "shoes" }
+                { label: "SHOES", value: "shoes" },
+                { label: "KURTA", value: "kurta" }
             ]
         },
 
@@ -23,7 +24,7 @@ $(document).ready(function () {
                 { label: "TOPS", value: "tops" },
                 { label: "JEANS", value: "jeans" },
                 { label: "KURTI", value: "kurti" },
-                { label: "JACKETS", value: "jackets" }
+                { label: "DRESS", value: "dress" }
             ]
         },
 
